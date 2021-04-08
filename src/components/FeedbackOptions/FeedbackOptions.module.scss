@@ -1,0 +1,9 @@
+.buttons > button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.buttons > button:not(:last-child) {
+  margin-right: 10px;
+}
