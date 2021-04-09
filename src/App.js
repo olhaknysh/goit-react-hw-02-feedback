@@ -40,7 +40,7 @@ class App extends Component {
           onLeaveFeedback={this.addFeedback}
         />
 
-        <h2>Statictics</h2>
+        <Section title="Statictics" />
         {totalFeedbacks === 0 ? (
           <Notification message="No feedback given" />
         ) : (
